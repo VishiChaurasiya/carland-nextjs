@@ -17,7 +17,8 @@ const locations = [
 ];
 
 export default function LocationSelection() {
-  const [location, setLocation] = useState("Select Location");
+  const [location, setLocation] = useState("Kartavya Path, Republic of India");
+
   return (
     <Menu as="div" className="w-full h-full flex xl:flex-row">
       <div className="relative flex-1">
