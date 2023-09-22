@@ -1,6 +1,7 @@
 "use client";
 
 import { useSearchContext } from "../context/search";
+import DateSelection from "./DateSelection";
 
 // components
 import LocationSelection from "./LocationSelection";
@@ -18,6 +19,7 @@ export default function Search() {
     >
       <div className="xl:h-full flex items-center px-6 xl:px-0">
         <LocationSelection />
+        <DateSelection />
       </div>
     </div>
   );
