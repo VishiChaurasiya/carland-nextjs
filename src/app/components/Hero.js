@@ -101,12 +101,13 @@ export default function Hero() {
           <Search />
         </motion.div>
       ) : (
-        <div className="-mt-12 w-full max-w-[1300px] mx-auto">
+        <div>
           <motion.div
             variants={fadeIn("up", 0.6)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.2 }}
+            className="-mt-12 w-full max-w-[1300px] mx-auto"
           >
             <Search />
           </motion.div>
