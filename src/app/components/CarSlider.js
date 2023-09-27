@@ -157,7 +157,7 @@ export default function CarSlider() {
         {cars.map((car, index) => {
           return (
             <SwiperSlide keys={index}>
-              <div className="max-w-[385px] mx-auto sm:mx-0">
+              <div className="max-w-[385px] mx-auto sm:mx-0 xl:mx-auto">
                 <Image
                   src={car.image}
                   width={380}
@@ -193,7 +193,7 @@ export default function CarSlider() {
                             src={item.icon}
                             width={24}
                             height={24}
-                            alt=""
+                            alt={item.text}
                           />
                         </div>
                         <div className="text-[12px] uppercase">{item.text}</div>
