@@ -4,6 +4,7 @@ const nextConfig = {
   productionBrowserSourceMaps: true, // Disable source maps in development
   optimizeFonts: false, // Disable font optimization
   minify: false, // Disable minification
+  output: "export",
 };
 
 module.exports = nextConfig;
