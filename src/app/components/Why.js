@@ -45,7 +45,7 @@ export default function Why() {
           className="hidden md:flex justify-center mb-6 xl:mb-2"
         >
           <Image
-            src={"/images/why/car.svg"}
+            src={"images/why/car.svg"}
             width={1060}
             height={420}
             alt="car"

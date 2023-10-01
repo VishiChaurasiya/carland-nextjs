@@ -56,7 +56,7 @@ export default function Hero() {
               {/* btn appstore */}
               <button className="btn-cta">
                 <Image
-                  src={"/icons/buttons/app-store.svg"}
+                  src={"icons/buttons/app-store.svg"}
                   width={132}
                   height={36}
                   alt="Google Play"
@@ -65,7 +65,7 @@ export default function Hero() {
               {/* btn google */}
               <button className="btn-cta">
                 <Image
-                  src={"/icons/buttons/google-play.svg"}
+                  src={"icons/buttons/google-play.svg"}
                   width={132}
                   height={36}
                   alt="Google Play"

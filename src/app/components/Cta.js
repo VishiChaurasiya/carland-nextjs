@@ -50,7 +50,7 @@ export default function Cta() {
               >
                 <button className="btn-cta">
                   <Image
-                    src={"/icons/buttons/google-play.svg"}
+                    src={"icons/buttons/google-play.svg"}
                     width={132}
                     height={36}
                     alt="google-play"
@@ -58,7 +58,7 @@ export default function Cta() {
                 </button>
                 <button className="btn-cta">
                   <Image
-                    src={"/icons/buttons/app-store.svg"}
+                    src={"icons/buttons/app-store.svg"}
                     width={132}
                     height={36}
                     alt="app-store"
@@ -76,7 +76,7 @@ export default function Cta() {
             className="flex-1 flex justify-center order-1 md:order-none"
           >
             <Image
-              src={"/images/cta/phone.svg"}
+              src={"images/cta/phone.svg"}
               width={320}
               height={640}
               alt=""
