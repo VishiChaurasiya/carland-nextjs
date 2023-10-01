@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="flex flex-col flex-1 gap-y-8">
             {/* logo */}
             <Link to="home" smooth spy className="cursor-pointer">
-              <Image src="/icons/logo.svg" width={200} height={200} alt="" />
+              <Image src={"icons/logo.svg"} width={200} height={200} alt="" />
             </Link>
             {/* text */}
             <div className="text-secondary">
