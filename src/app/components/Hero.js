@@ -82,7 +82,7 @@ export default function Hero() {
             className="relative w-full h-full max-h-[40vh] md:max-w-[70vw] xl:max-w-[860px] xl:max-h-[542px]"
           >
             <Image
-              src={"/carland-nextjs/images/hero/car.svg"}
+              src={"images/hero/car.svg"}
               fill
               alt="car"
               style={{ objectFit: "contain" }}
