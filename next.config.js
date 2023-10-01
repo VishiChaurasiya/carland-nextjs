@@ -5,6 +5,7 @@ const nextConfig = {
   optimizeFonts: false, // Disable font optimization
   minify: false, // Disable minification
   output: "export",
+  basePath: "/carland-nextjs",
 };
 
 module.exports = nextConfig;
